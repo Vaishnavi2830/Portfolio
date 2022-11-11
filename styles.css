@@ -1,0 +1,102 @@
+@font-face {
+  font-family: homeFont;
+  src: url(trebuc.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.home{
+    background-color: #23262b ;
+    color: #c6cddb;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+    align-items: center;
+    padding-top: 30vh;
+    font-family: homeFont;
+}
+
+.box h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.box p{
+    font-size: 17px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.feather {
+  display: inline-block;
+  vertical-align: -0.125em;
+  width: 2em;
+  height: 2em;
+  color: #c6cddb;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+
+.icon a{
+    padding: 0 13px;
+    
+}
+
+a img{
+    width: 42px;
+}
+
+h3{
+    padding-top: 10px;
+    
+    font-family: homeFont;
+    font-weight: 100;
+}
+
+h3 a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #c6cddb;
+}
+
+.about{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.profilePicture{
+    padding: 10%;
+
+}
+
+.profilePicture img{
+    width: 2000px;
+    height: auto;
+    border-radius: 1000px;
+}
+
+.footer{
+    background-color: #23262b ;
+    color: #c6cddb;
+    padding: 30px 0;
+    text-align: center;
+}
